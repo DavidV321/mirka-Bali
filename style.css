@@ -1,0 +1,358 @@
+body, html {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.container {
+    width: 900px;
+}
+
+/* navigation top */
+
+.top-bar {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    background: transparent;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    z-index: 10; /* Aby byl div na vrcholu carouselu */
+    /* border-bottom: 1px solid white; */
+    padding-bottom: 10px;
+ 
+}
+
+
+
+.top-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid white;
+    padding: 5px;
+    margin-top: 15px;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    text-align: center;
+    font-size: 12px;
+}
+
+.mailIcon p, i {
+    color: white;
+    font-size: 16px;
+}
+
+.top-bar p {
+    margin: 0 auto;
+}
+
+.socIcon a {
+    color: white;
+    font-size: 20px;
+}
+
+.top-bar p i {
+    margin-right: 10px;
+}
+
+.top-bar a i {
+    margin-right: 10px;
+}
+
+.nav-top {
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    background: transparent;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 10;
+  
+}
+
+.nav-top ul {
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.nav-top ul li {
+    display: inline;
+}
+
+.nav-top ul li a {
+    color: white;
+    font-family: "Lulo Clean One Bold";
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+ /*-------slidesphoto mdb--------*/
+    
+ .carousel-inner img {
+    
+    height: 600px;
+}
+
+.carousel-caption h2 {
+    font-size: 35px;
+    font-family:"Lulo Clean One";
+    letter-spacing: 5px;
+    position: absolute;
+    top: -650%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.carousel-caption h3 {
+    font-size: 25px;
+    font-family:"Lulo Clean One";
+    letter-spacing: 5px;
+    position: absolute;
+    top: -450%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/*  main  */
+
+.main-section {
+    margin: 0 auto;        /* Vystředí container */
+    margin-top: 100px;
+    width: 1300px;          /* Nastaví šířku containeru na 1100px */
+   
+}
+
+.par-one {
+    text-align: center;
+    
+}
+
+.par-one h1{
+    font-family:"Lulo Clean One Bold";
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.par-one img{
+    width: 100%;
+    height: 900px;
+}
+
+.par-one p{
+    text-align: left;
+    margin: 20px auto;
+    color: #787f95;
+    font-family: sans-serif;
+    
+}
+
+.space {
+    height: 40px;
+}
+
+.w1-wrap {
+    padding-top: 30px;
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.clearfix p{
+    color: #787f95;
+    font-family: sans-serif;
+}
+
+.title-center {
+    width: 900px;
+    margin: 0px auto;
+    font-family:"Lulo Clean One Bold";
+    font-size: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.image-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 30px;
+    width: 900px;
+    margin: 0px auto;
+}
+
+.image-wrap img {
+    width: 25%;
+}
+
+
+
+.program-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 30px;
+    width: 1100px;
+    margin: 0px auto;
+}
+
+.program-wrap a {
+    width: 30%;
+    display: block; 
+  }
+
+.program-wrap img {
+    width: 100%;
+    display: block; 
+}
+
+
+
+/* .card img{
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+} */
+
+.space-two {
+    height: 80px;
+}
+
+.instagram-place {
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("img/IMG_1177.JPG");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+
+.title-inst {
+    margin: 0px auto;
+    padding-top: 30px;
+    letter-spacing: 5px;
+    color: white;
+    font-family:"Lulo Clean One";
+    font-size: 35px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.w-form {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.prg-center {
+    width: 500px;
+    margin: 0px auto;
+    font-family:"Lulo Clean One Bold";
+    font-size: 10px;
+    margin-bottom: 30px;
+    text-align: center; 
+    
+}
+
+.text-color {
+    color: rgb(152, 152, 152);
+}
+
+/*  ========= pobyty ============= */
+
+.header-img {
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.6)),url("img/bali14.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    background-attachment: fixed;
+    
+    
+    }
+
+    .header-title {
+        position: absolute;
+        top: 80%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-family: "Lulo Clean One Bold";
+        text-decoration: none;
+        font-size: 40px;
+    }
+
+    .w2-wrap {
+        padding-top: 30px;
+        width: 1100px;
+        margin: 0px auto;
+    }
+
+    .clearfix img {
+        width: 40%;
+    }
+    
+    .title-info {
+        font-size: 30px;
+        font-family:"Lulo Clean One";
+        letter-spacing: 5px;
+    }
+
+    .information {
+        border-collapse: separate;
+        border-spacing: 0;
+        border: 0px solid #fff;
+        border-width: 1px 0 0 1px;
+        margin: 0 0 1.6em;
+        table-layout: fixed;
+        width: 40%;
+        font-size: 17px;
+    }
+
+    .travel-section {
+        width: 1100px;
+        margin: 0 auto;
+    }
+
+    .travel-section h3, p {
+        font-family: "Lulo Clean one";
+        color: rgb(123, 123, 123);
+    }
+
+    .travel-section p {
+        font-size: 18px;
+    }
+
+    .travel-photo {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        padding-top: 30px;
+        width: 1100px;
+        margin: 0px auto;
+
+    }
+
+    .travel-photo img {
+        width: 32%;
+    }
+
